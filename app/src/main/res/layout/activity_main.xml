@@ -10,7 +10,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/main_menu_nagoya">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,7 +29,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/main_menu_nakatsugawa">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -46,7 +48,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/main_menu_tokyo">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -64,7 +67,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/main_menu_kyoto">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -82,7 +86,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:id="@+id/main_menu_osaka">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
