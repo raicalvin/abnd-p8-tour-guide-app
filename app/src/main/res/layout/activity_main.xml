@@ -20,7 +20,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="NAGOYA"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -35,7 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="NAKATSUGAWA"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -50,7 +56,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="TOKYO"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -65,7 +74,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="KYOTO"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -80,7 +92,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="OSAKA"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"/>
     </RelativeLayout>
 
 </LinearLayout>
