@@ -16,6 +16,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/background_item_nagoya"
             android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAGOYA"
+            android:gravity="center"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,6 +31,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/background_item_nakatsugawa"
             android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NAKATSUGAWA"
+            android:gravity="center"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -36,6 +46,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/background_item_tokyo"
             android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="TOKYO"
+            android:gravity="center"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -46,6 +61,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/background_item_kyoto"
             android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KYOTO"
+            android:gravity="center"/>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -56,6 +76,11 @@
             android:layout_height="match_parent"
             android:src="@drawable/background_item_osaka"
             android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="OSAKA"
+            android:gravity="center"/>
     </RelativeLayout>
 
 </LinearLayout>
