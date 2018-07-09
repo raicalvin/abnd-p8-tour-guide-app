@@ -32,8 +32,8 @@ public class HistoryAdapter extends ArrayAdapter<History> {
         TextView eventTV = (TextView) convertView.findViewById(R.id.history_title_text_view);
         TextView dateTV = (TextView) convertView.findViewById(R.id.history_date_text_view);
 
-        eventTV.setText(historyItem.getmEventTitle());
-        dateTV.setText(historyItem.getmEventDate());
+        eventTV.setText(historyItem.getEventTitle());
+        dateTV.setText(historyItem.getEventDate());
 
         return convertView;
     }
