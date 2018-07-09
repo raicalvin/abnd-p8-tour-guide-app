@@ -18,4 +18,12 @@ public class History {
         mEventDate = eventDate;
     }
 
+    public String getmEventTitle() {
+        return mEventTitle;
+    }
+
+    public String getmEventDate() {
+        return mEventDate;
+    }
+
 }
