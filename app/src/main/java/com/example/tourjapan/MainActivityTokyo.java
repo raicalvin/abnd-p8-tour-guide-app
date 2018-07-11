@@ -27,5 +27,10 @@ public class MainActivityTokyo extends AppCompatActivity {
         // Connect tab layout with the view pager
         tabLayout.setupWithViewPager(viewPager);
 
+        // TRYING OUT ONITEMCLICK
+
+
+
+
     }
 }

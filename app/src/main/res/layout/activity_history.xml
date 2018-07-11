@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".HistoryActivity"
     android:orientation="vertical"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@android:color/white">
 
     <RelativeLayout
