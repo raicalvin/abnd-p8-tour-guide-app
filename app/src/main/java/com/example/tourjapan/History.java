@@ -1,5 +1,7 @@
 package com.example.tourjapan;
 
+import java.util.HashMap;
+
 public class History {
 
     /**
@@ -14,8 +16,10 @@ public class History {
      * @param eventDate
      */
     public History(String eventTitle, String eventDate) {
+
         mEventTitle = eventTitle;
         mEventDate = eventDate;
+
     }
 
     public String getEventTitle() {
