@@ -68,6 +68,7 @@ public class FragmentTokyoHistory extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(rootView.getContext(), HistoryActivity.class);
                 intent.putExtra("Event-Description", tokyoEvents.getValue(history.get(position).getEventTitle()));
+                intent.putExtra("Event-Date", history.get(position).getEventDate());
                 startActivity(intent);
             }
         });

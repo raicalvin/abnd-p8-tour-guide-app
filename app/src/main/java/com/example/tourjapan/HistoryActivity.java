@@ -13,12 +13,14 @@ public class HistoryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_history);
 
         TextView myTV = (TextView) findViewById(R.id.history_layout_text_content);
+        TextView myTV2 = (TextView) findViewById(R.id.history_layout_history_date);
 
         Intent receivedIntent = new Intent(getIntent());
 
         String receivingActivityName = receivedIntent.getStringExtra("receivingFragmentName");
 
         myTV.setText(receivedIntent.getStringExtra("Event-Description"));
+        myTV2.setText(receivedIntent.getStringExtra("Event-Date"));
 
     }
 }

@@ -28,15 +28,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/history_layout_history_title"
             android:text="Example"
-            android:layout_above="@id/history_layout_history_location"
-            android:layout_marginBottom="16dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/history_layout_history_location"
-            android:text="some location"
             android:layout_above="@id/history_layout_history_date"
             android:layout_marginBottom="16dp"
             />

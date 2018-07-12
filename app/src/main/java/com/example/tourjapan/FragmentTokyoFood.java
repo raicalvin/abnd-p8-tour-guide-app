@@ -1,11 +1,13 @@
 package com.example.tourjapan;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -25,7 +27,7 @@ public class FragmentTokyoFood extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.list_view, container, false);
+        final View rootView = inflater.inflate(R.layout.list_view, container, false);
 
         final ArrayList<Food> food = new ArrayList<>();
 
@@ -49,6 +51,14 @@ public class FragmentTokyoFood extends Fragment {
         ListView listView = (ListView) rootView.findViewById(R.id.listview);
 
         listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(rootView.getContext(), FoodActivity.class);
+                startActivity(intent);
+            }
+        });
 
         return rootView;
     }
