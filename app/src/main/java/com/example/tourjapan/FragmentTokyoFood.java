@@ -56,6 +56,8 @@ public class FragmentTokyoFood extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(rootView.getContext(), FoodActivity.class);
+                intent.putExtra("Food-Description", food.get(position).getFoodTitle());
+                intent.putExtra("Food-Image", food.get(position).getPicResourceID());
                 startActivity(intent);
             }
         });
