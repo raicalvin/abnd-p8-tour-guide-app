@@ -29,7 +29,9 @@
             android:id="@+id/history_layout_history_title"
             android:text="Example"
             android:layout_above="@id/history_layout_history_date"
-            android:layout_marginBottom="16dp"
+            android:textSize="32sp"
+            android:fontFamily="@font/raleway_bold"
+            android:textColor="#353535"
             />
 
         <TextView
@@ -38,7 +40,9 @@
             android:id="@+id/history_layout_history_date"
             android:layout_alignParentBottom="true"
             android:text="Some date"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:textSize="18sp"
+            android:textColor="#BB1C1C"/>
 
     </RelativeLayout>
 
@@ -54,7 +58,9 @@
             android:id="@+id/history_layout_text_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:paddingTop="16dp"/>
+            android:paddingTop="16dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
 
     </ScrollView>
 
