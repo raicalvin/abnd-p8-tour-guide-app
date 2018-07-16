@@ -12,15 +12,17 @@ public class HistoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
 
-        TextView myTV = (TextView) findViewById(R.id.history_layout_text_content);
-        TextView myTV2 = (TextView) findViewById(R.id.history_layout_history_date);
+        TextView dateTV = findViewById(R.id.history_layout_history_date);
+        TextView titleTV = findViewById(R.id.history_layout_history_title);
+        TextView contentTV = findViewById(R.id.history_layout_text_content);
 
         Intent receivedIntent = new Intent(getIntent());
 
         String receivingActivityName = receivedIntent.getStringExtra("receivingFragmentName");
 
-        myTV.setText(receivedIntent.getStringExtra("Event-Description"));
-        myTV2.setText(receivedIntent.getStringExtra("Event-Date"));
+        contentTV.setText(receivedIntent.getStringExtra("Event-Description"));
+        dateTV.setText(receivedIntent.getStringExtra("Event-Date"));
+        titleTV.setText(receivedIntent.getStringExtra("Event-Title"));
 
     }
 }

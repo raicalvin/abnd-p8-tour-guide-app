@@ -15,11 +15,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RelativeLayout mainMenuNagoya = (RelativeLayout) findViewById(R.id.main_menu_nagoya);
-        RelativeLayout mainMenuNakatsugawa = (RelativeLayout) findViewById(R.id.main_menu_nakatsugawa);
-        RelativeLayout mainMenuTokyo = (RelativeLayout) findViewById(R.id.main_menu_tokyo);
-        RelativeLayout mainMenuKyoto = (RelativeLayout) findViewById(R.id.main_menu_kyoto);
-        RelativeLayout mainMenuOsaka = (RelativeLayout) findViewById(R.id.main_menu_osaka);
+        RelativeLayout mainMenuNagoya = findViewById(R.id.main_menu_nagoya);
+        RelativeLayout mainMenuNakatsugawa = findViewById(R.id.main_menu_nakatsugawa);
+        RelativeLayout mainMenuTokyo = findViewById(R.id.main_menu_tokyo);
+        RelativeLayout mainMenuKyoto = findViewById(R.id.main_menu_kyoto);
+        RelativeLayout mainMenuOsaka = findViewById(R.id.main_menu_osaka);
 
         mainMenuNagoya.setOnClickListener(new View.OnClickListener() {
             @Override

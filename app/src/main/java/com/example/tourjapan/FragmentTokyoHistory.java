@@ -36,22 +36,15 @@ public class FragmentTokyoHistory extends Fragment {
 
         String fragmentName = getActivity().getClass().getSimpleName();
 
-        history.add(new History("The Great War of Bubbles", "March 09, 1908"));
-        history.add(new History("Pilo's Problem Probably", "March 43, 1908"));
-        history.add(new History("India and Japan", "March 09, 1508"));
-        history.add(new History("The great something of nigeria", "March 032, 1908"));
-        history.add(new History("The great something of mcdonalds", "March 39, 1908"));
-        history.add(new History("The great something of taco bell", "March 09, 1108"));
-        history.add(new History("The great something of dog", "March 09, 1908"));
-        history.add(new History("The great something of cat", "March 459, 3208"));
-        history.add(new History("The great something of kyoto", "March 09, 1908"));
-        history.add(new History("The great something of osaka", "March 09, 1908"));
-        history.add(new History("The great something of nigeria", "March 032, 1908"));
-        history.add(new History("The great something of mcdonalds", "March 39, 1908"));
-        history.add(new History("The great something of taco bell", "March 09, 1108"));
-        history.add(new History("The great something of dog", "March 09, 1908"));
-        history.add(new History("The great something of cat", "March 459, 3208"));
-        history.add(new History("The great something of kyoto", "March 09, 1908"));
+        history.add(new History("Sensoji Temple", "645"));
+        history.add(new History("Edo Castle is Built", "1457"));
+        history.add(new History("The Edo Period Begins", "1603-1868"));
+        history.add(new History("Takashi Hara is Assassinated", "November 4, 1921"));
+        history.add(new History("The Great Kanto Earthquake", "September 1, 1923"));
+        history.add(new History("The First Tokyo Metro Line", "December 30th 1927"));
+        history.add(new History("Tokyo’s Population Reaches 10 million", "1962"));
+        history.add(new History("1964 Summer Olympics", "October 10, 1964"));
+        history.add(new History("The Rainbow Bridge in Tokyo Bay is Opened", "August 27, 1993"));
 
         HistoryAdapter adapter = new HistoryAdapter(getActivity(), history);
 
@@ -69,6 +62,7 @@ public class FragmentTokyoHistory extends Fragment {
                 Intent intent = new Intent(rootView.getContext(), HistoryActivity.class);
                 intent.putExtra("Event-Description", tokyoEvents.getValue(history.get(position).getEventTitle()));
                 intent.putExtra("Event-Date", history.get(position).getEventDate());
+                intent.putExtra("Event-Title", history.get(position).getEventTitle());
                 startActivity(intent);
             }
         });
