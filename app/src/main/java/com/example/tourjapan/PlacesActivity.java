@@ -15,11 +15,13 @@ public class PlacesActivity extends AppCompatActivity {
 
         Intent incoming = new Intent(getIntent());
 
+        TextView placeTV = findViewById(R.id.places_layout_location);
         TextView descTV = findViewById(R.id.places_layout_description);
         ImageView bgImg = findViewById(R.id.places_layout_background_image);
 
         descTV.setText(incoming.getStringExtra("Place-Description"));
         bgImg.setImageResource(incoming.getIntExtra("Place-Image", 0));
+        placeTV.setText(incoming.getStringExtra("Place-Title"));
 
     }
 }

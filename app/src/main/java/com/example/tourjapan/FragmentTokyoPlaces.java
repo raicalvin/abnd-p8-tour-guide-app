@@ -55,6 +55,7 @@ public class FragmentTokyoPlaces extends Fragment {
                 Intent intent = new Intent(rootView.getContext(), PlacesActivity.class);
                 intent.putExtra("Place-Description", places.get(position).getPlaceDescription());
                 intent.putExtra("Place-Image", places.get(position).getHeaderResourceID());
+                intent.putExtra("Place-Title", places.get(position).getPlaceTitle());
                 startActivity(intent);
             }
         });
