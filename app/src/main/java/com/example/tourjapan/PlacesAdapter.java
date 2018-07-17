@@ -29,6 +29,9 @@ public class PlacesAdapter extends ArrayAdapter {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
+        TextView otherTV = (TextView) convertView.findViewById(R.id.history_date_text_view);
+        otherTV.setVisibility(View.GONE);
+
         TextView placeTitleTV = (TextView) convertView.findViewById(R.id.history_title_text_view);
         ImageView placeImageIV = (ImageView) convertView.findViewById(R.id.image_icon);
 

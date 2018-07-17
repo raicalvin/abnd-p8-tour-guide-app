@@ -32,25 +32,16 @@ public class FragmentTokyoPlaces extends Fragment {
 
         final ArrayList<Places> places = new ArrayList<>();
 
-        places.add(new Places("The great something of japan", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of asia", R.drawable.filler2, getString(R.string.place_2)));
-        places.add(new Places("The great something of canada", R.drawable.filler3, getString(R.string.place_3)));
-        places.add(new Places("The great something of singapore", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of iceland", R.drawable.filler2, getString(R.string.place_2)));
-        places.add(new Places("The great something of kyoto", R.drawable.filler2, getString(R.string.place_2)));
-        places.add(new Places("The great something of osaka", R.drawable.filler3, getString(R.string.place_3)));
-        places.add(new Places("The great something of nagoya", R.drawable.filler1, getString(R.string.place_3)));
-        places.add(new Places("The great something of nara", R.drawable.filler3, getString(R.string.place_3)));
-        places.add(new Places("The great something of mars", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of venus", R.drawable.filler2, getString(R.string.place_1)));
-        places.add(new Places("The great something of jupiter", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of target", R.drawable.filler2, getString(R.string.place_1)));
-        places.add(new Places("The great something of panera bread", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of gomez", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of magome", R.drawable.filler1, getString(R.string.place_1)));
-        places.add(new Places("The great something of naha", R.drawable.filler2, getString(R.string.place_1)));
-        places.add(new Places("The great something of chiba", R.drawable.filler3, getString(R.string.place_1)));
-        places.add(new Places("The great something of kobe", R.drawable.filler1, getString(R.string.place_1)));
+        places.add(new Places("Akihabara Station", R.drawable.places_icon_akihabara_station, getString(R.string.place_1)));
+        places.add(new Places("Ameyoko Shopping Street", R.drawable.places_icon_ameyoko_shopping_street, getString(R.string.place_2)));
+        places.add(new Places("Ginza", R.drawable.places_icon_ginza, getString(R.string.place_3)));
+        places.add(new Places("Imperial Palace", R.drawable.places_icon_imperial_palace, getString(R.string.place_1)));
+        places.add(new Places("Meiji Temple", R.drawable.places_icon_meiji_temple, getString(R.string.place_2)));
+        places.add(new Places("Nissan Crossing", R.drawable.places_icon_nissan_crossing, getString(R.string.place_2)));
+        places.add(new Places("Senso-Ji Temple", R.drawable.places_icon_sensoji_temple, getString(R.string.place_3)));
+        places.add(new Places("Shinjuku", R.drawable.places_icon_shinjuku, getString(R.string.place_3)));
+        places.add(new Places("Tokyo Skytree", R.drawable.places_icon_tokyo_skytree, getString(R.string.place_3)));
+        places.add(new Places("Ueno Park", R.drawable.places_icon_ueno_park, getString(R.string.place_1)));
 
         PlacesAdapter adapter = new PlacesAdapter(getActivity(), places);
 
