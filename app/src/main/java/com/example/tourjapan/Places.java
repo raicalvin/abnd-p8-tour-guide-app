@@ -10,16 +10,20 @@ public class Places {
     private String mPlaceTitle;
     private int mPicResourceID;
     private String mPlaceDescription;
+    private int mHeaderResourceID;
 
     /**
      * Create a new Places object storing the location name and the resource ID
      * @param placeTitle
      * @param picResource
+     * @param placeDescription
+     * @param headerResource
      */
-    public Places(String placeTitle, int picResource, String placeDescription) {
+    public Places(String placeTitle, int picResource, String placeDescription, int headerResource) {
         mPlaceTitle = placeTitle;
         mPicResourceID = picResource;
         mPlaceDescription = placeDescription;
+        mHeaderResourceID = headerResource;
     }
 
     public String getPlaceTitle() {
@@ -31,5 +35,7 @@ public class Places {
     }
 
     public String getPlaceDescription() { return mPlaceDescription; }
+
+    public int getHeaderResourceID() { return mHeaderResourceID; }
 
 }
