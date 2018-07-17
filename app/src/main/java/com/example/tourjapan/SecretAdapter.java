@@ -29,10 +29,15 @@ public class SecretAdapter extends ArrayAdapter<Secret> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
-        TextView foodTitleTV = (TextView) convertView.findViewById(R.id.history_title_text_view);
-        ImageView foodImageIV = (ImageView) convertView.findViewById(R.id.image_icon);
+        TextView secretTitleTV = (TextView) convertView.findViewById(R.id.history_title_text_view);
 
-        foodTitleTV.setText(secretItem.getSecretTitle());
+        ImageView secretIconIV = (ImageView) convertView.findViewById(R.id.image_icon);
+        secretIconIV.setVisibility(View.GONE);
+
+        TextView otherTV = (TextView) convertView.findViewById(R.id.history_date_text_view);
+        otherTV.setVisibility(View.GONE);
+
+        secretTitleTV.setText(secretItem.getSecretTitle());
 
         return convertView;
     }

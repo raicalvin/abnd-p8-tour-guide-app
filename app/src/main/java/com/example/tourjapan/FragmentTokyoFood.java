@@ -31,20 +31,12 @@ public class FragmentTokyoFood extends Fragment {
 
         final ArrayList<Food> food = new ArrayList<>();
 
-        food.add(new Food("The great something of kobe", R.drawable.filler1));
-        food.add(new Food("The great something of food", R.drawable.filler2));
-        food.add(new Food("The great something of ice cream", R.drawable.filler3));
-        food.add(new Food("The great something of something", R.drawable.filler1));
-        food.add(new Food("The great something of kobe", R.drawable.filler1));
-        food.add(new Food("The great something of what is this", R.drawable.filler3));
-        food.add(new Food("The great something of kobe", R.drawable.filler2));
-        food.add(new Food("The great something of hello", R.drawable.filler1));
-        food.add(new Food("The great something of kobe", R.drawable.filler2));
-        food.add(new Food("The great something of hi", R.drawable.filler1));
-        food.add(new Food("The great something of kobe", R.drawable.filler2));
-        food.add(new Food("The great something of something else", R.drawable.filler1));
-        food.add(new Food("The great something of kobe", R.drawable.filler3));
-        food.add(new Food("The great something of sushi", R.drawable.filler3));
+        food.add(new Food("Sushi at Akihabara Station", R.drawable.food_icon_akihabara_station_sushi));
+        food.add(new Food("Matsuya", R.drawable.food_icon_matsuya));
+        food.add(new Food("Tokyo Tanmen Tonari", R.drawable.food_icon_tanmen_tonari));
+        food.add(new Food("Ueno French Toast", R.drawable.food_icon_ueno_french_toast));
+        food.add(new Food("Vie De France Bakery", R.drawable.food_icon_vie_de_france));
+        food.add(new Food("Mr. Waffle", R.drawable.food_icon_mr_waffle));
 
         FoodAdapter adapter = new FoodAdapter(getActivity(), food);
 
