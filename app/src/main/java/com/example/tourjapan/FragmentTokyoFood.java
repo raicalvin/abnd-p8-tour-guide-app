@@ -31,12 +31,12 @@ public class FragmentTokyoFood extends Fragment {
 
         final ArrayList<Food> food = new ArrayList<>();
 
-        food.add(new Food("Sushi at Akihabara Station", R.drawable.food_icon_akihabara_station_sushi));
-        food.add(new Food("Matsuya", R.drawable.food_icon_matsuya));
-        food.add(new Food("Tokyo Tanmen Tonari", R.drawable.food_icon_tanmen_tonari));
-        food.add(new Food("Ueno French Toast", R.drawable.food_icon_ueno_french_toast));
-        food.add(new Food("Vie De France Bakery", R.drawable.food_icon_vie_de_france));
-        food.add(new Food("Mr. Waffle", R.drawable.food_icon_mr_waffle));
+        food.add(new Food("Sushi at Akihabara Station", R.drawable.food_icon_akihabara_station_sushi, R.drawable.food_akihabara_station_sushi));
+        food.add(new Food("Matsuya", R.drawable.food_icon_matsuya, R.drawable.food_matsuya));
+        food.add(new Food("Tokyo Tanmen Tonari", R.drawable.food_icon_tanmen_tonari, R.drawable.food_tanmen_tonari));
+        food.add(new Food("Ueno French Toast", R.drawable.food_icon_ueno_french_toast, R.drawable.food_ueno_french_toast));
+        food.add(new Food("Vie De France Bakery", R.drawable.food_icon_vie_de_france, R.drawable.food_vie_de_france));
+        food.add(new Food("Mr. Waffle", R.drawable.food_icon_mr_waffle, R.drawable.food_mr_waffle));
 
         FoodAdapter adapter = new FoodAdapter(getActivity(), food);
 
@@ -48,8 +48,8 @@ public class FragmentTokyoFood extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(rootView.getContext(), FoodActivity.class);
-                intent.putExtra("Food-Description", food.get(position).getFoodTitle());
-                intent.putExtra("Food-Image", food.get(position).getPicResourceID());
+                intent.putExtra("Food-Title", food.get(position).getFoodTitle());
+                intent.putExtra("Food-Image", food.get(position).getHeaderResourceID());
                 startActivity(intent);
             }
         });

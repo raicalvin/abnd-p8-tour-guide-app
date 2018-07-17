@@ -15,10 +15,10 @@ public class FoodActivity extends AppCompatActivity {
 
         Intent incoming = new Intent(getIntent());
 
-        TextView myTV = findViewById(R.id.food_layout_description );
+        TextView myTV = findViewById(R.id.food_layout_title );
         ImageView myImg = findViewById(R.id.food_layout_background_image);
 
-        myTV.setText(incoming.getStringExtra("Food-Description"));
+        myTV.setText(incoming.getStringExtra("Food-Title"));
         myImg.setImageResource(incoming.getIntExtra("Food-Image", 0));
 
     }
