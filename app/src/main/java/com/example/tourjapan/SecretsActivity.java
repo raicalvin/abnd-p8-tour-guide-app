@@ -14,9 +14,13 @@ public class SecretsActivity extends AppCompatActivity {
 
         Intent receivedIntent = new Intent(getIntent());
 
-        TextView secretTV = findViewById(R.id.secrets_layout_description);
+        TextView secretTitle = findViewById(R.id.secrets_layout_title);
+        TextView secretLocation = findViewById(R.id.secrets_layout_general_location);
+        TextView secretDescription = findViewById(R.id.secrets_layout_description);
 
-        secretTV.setText(receivedIntent.getStringExtra("Secret-Description"));
+        secretTitle.setText(receivedIntent.getStringExtra("Secret-Title"));
+        secretDescription.setText(receivedIntent.getStringExtra("Secret-Description"));
+        secretLocation.setText(receivedIntent.getStringExtra("Secret-Location"));
 
     }
 }

@@ -31,21 +31,10 @@ public class FragmentTokyoSecrets extends Fragment {
 
         final ArrayList<Secret> secrets = new ArrayList<>();
 
-        secrets.add(new Secret("Secret1"));
-        secrets.add(new Secret("Secret2"));
-        secrets.add(new Secret("Secret3"));
-        secrets.add(new Secret("Secret4"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
-        secrets.add(new Secret("The Hidden Tunnel of Something"));
+        secrets.add(new Secret("G Cans Project", "Kasukabe, Saitam"));
+        secrets.add(new Secret("Ueno and Hachiko Monument", "Hongo, Bunkyo, Tokyo"));
+        secrets.add(new Secret("Rikugien Gardens", "Bunkyo"));
+
 
         SecretAdapter adapter = new SecretAdapter(getActivity(), secrets);
 
@@ -61,6 +50,8 @@ public class FragmentTokyoSecrets extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(rootView.getContext(), SecretsActivity.class);
+                intent.putExtra("Secret-Title", secrets.get(position).getSecretTitle());
+                intent.putExtra("Secret-Location", secrets.get(position).getSecretLocation());
                 intent.putExtra("Secret-Description", tokyoSecrets.getValue(secrets.get(position).getSecretTitle()));
                 startActivity(intent);
             }
