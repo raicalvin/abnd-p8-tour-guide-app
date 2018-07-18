@@ -88,13 +88,15 @@
                 android:id="@+id/places_layout_general_location"
                 android:layout_marginBottom="16dp"
                 android:textSize="18sp"
-                android:textColor="#BB1C1C"/>
+                android:textColor="#BB1C1C"
+                android:fontFamily="@font/raleway_bold"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/places_layout_description"
                 android:text="Some description about this cool place."
+                android:fontFamily="@font/raleway_regular"
                 android:layout_marginBottom="16dp"
                 android:textSize="18sp"
                 android:textColor="#151515"/>
@@ -105,7 +107,9 @@
                 android:id="@+id/places_layout_more_info"
                 android:text="More info"
                 android:textSize="12sp"
-                android:textColor="#BB1C1C"/>
+                android:textColor="#BB1C1C"
+                android:fontFamily="@font/raleway_regular"
+                />
 
         </LinearLayout>
 
