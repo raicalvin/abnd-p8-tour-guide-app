@@ -17,9 +17,11 @@ public class FoodActivity extends AppCompatActivity {
 
         TextView myTV = findViewById(R.id.food_layout_title );
         ImageView myImg = findViewById(R.id.food_layout_background_image);
+        TextView descTV = findViewById(R.id.food_layout_description);
 
         myTV.setText(incoming.getStringExtra("Food-Title"));
         myImg.setImageResource(incoming.getIntExtra("Food-Image", 0));
+        descTV.setText(incoming.getStringExtra("Food-Description"));
 
     }
 }

@@ -29,11 +29,11 @@ public class FoodAdapter extends ArrayAdapter {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
-        TextView otherTV = (TextView) convertView.findViewById(R.id.history_date_text_view);
+        TextView otherTV = convertView.findViewById(R.id.history_date_text_view);
         otherTV.setVisibility(View.GONE);
 
-        TextView foodTitleTV = (TextView) convertView.findViewById(R.id.history_title_text_view);
-        ImageView foodImageIV = (ImageView) convertView.findViewById(R.id.image_icon);
+        TextView foodTitleTV = convertView.findViewById(R.id.history_title_text_view);
+        ImageView foodImageIV = convertView.findViewById(R.id.image_icon);
 
         foodTitleTV.setText(foodItem.getFoodTitle());
         foodImageIV.setImageResource(foodItem.getPicResourceID());

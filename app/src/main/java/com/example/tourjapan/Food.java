@@ -4,7 +4,7 @@ public class Food {
     /**
      * Private member variables to hold tourist location
      */
-    private String mFoodTitle;
+    private String mFoodTitle, mFoodDescription;
     private int mPicResourceID, mHeaderResourceID;
 
     /**
@@ -12,10 +12,11 @@ public class Food {
      * @param foodTitle
      * @param picResource
      */
-    public Food(String foodTitle, int picResource, int headerResource) {
+    public Food(String foodTitle, int picResource, int headerResource, String foodDescription) {
         mFoodTitle = foodTitle;
         mPicResourceID = picResource;
         mHeaderResourceID = headerResource;
+        mFoodDescription = foodDescription;
     }
 
     public String getFoodTitle() {
@@ -27,4 +28,6 @@ public class Food {
     }
 
     public int getHeaderResourceID() { return mHeaderResourceID; }
+
+    public String getFoodDescription() { return mFoodDescription; }
 }

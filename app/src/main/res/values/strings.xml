@@ -22,8 +22,12 @@
     <string name="place_tokyo_skytree">Located in Sumida, Tokyo, the Tokyo Skytree is an obervational tower, a restaurant, and a broadcasting structure and became the tallest structure tower in Japan in 2010. The Tower itself is a striking 634 meters high and is located next to Asakusa in Tokyo. Many of the shopping malls and restaurants are positioned at the base of the tower. The Tembo deck at 450 meters is used as an observational platform. For the cost of about $30-$40, tourists can visit these platforms to see the amazing skyline of Tokyo.</string>
     <string name="place_ueno_park">Ueno Park is located is a public park located near the Ueno Station. The park is famous for the many museums and galleries in Tokyo. Museums such as the National Science Museum and the Tokyo Metropolitan Art Museum reside in this park. Ueno park is also one of the popular places to view blossoming cherry blossoms in season. Being one of the most popular parks in Tokyo, visitors can be sure to experience the many great offerings it has.</string>
 
-
-
-
-
+    <!-- String descriptions for Food -->
+    <string name="food_sushi_akihabara">Sushi is plenty at Akihabara and Akihabara station is no exception. With fancy sit-down sushi to grab-and-go sushi, Akihabara station has sushi for all your needs. This particular place was a casual sit-down sushi place with a conveyor belt! Simply order what you\'d like to get on the device and in minutes, the sushi would zip past all the tables and be delivered to your table. Prices are calculated based on what sushi you pick up from the belt and there\'s unlimited matcha green tea!</string>
+    <string name="food_matsuya">Matsyu is a popular Japanese breakfast and general meal chain. You can be sure to find one near and around you anywhere you visit in Tokyo. The procedure is simple! Simply order what meal you would like at the vending machine and sit down. The meal will be delivered to your table based on your ticket you received from the machine. From miso soup to raw tofu to rice and eggs and more, Matsuya is a great quick place to grab something to eat at a very small and reasonable price.</string>
+    <string name="food_tokyo_tanmen_tonari">A quick order-and-eat sit-down place in Tokyo comprising a menu of ramen and many other popular Japanese dishes.</string>
+    <string name="food_ueno_park_french_toast">The most amazing french toast in Tokyo. Served with ice cream. Your life is not complete without this delicious dish.</string>
+    <string name="food_vie_de_france">Bakeries are immensely popular in Japan. Vie De France Bakery can be found in Akihabara station as well as many other places around Tokyo. These bakeries can be found in stations, shopping malls, and many other busy parts of Tokyo and offer a wide variety of baked goods and pastries.</string>
+    <string name="food_mr_waffle">THESE ARE DELICIOUS. Nothing is more satisfying than a freshly baked and deliciously warm waffle from Mr. Waffle. From chocolate waffles to orange waffles to plenty more, these little shops provide a delicious way to consume a very popular snack in Japan. You can find these at malls, shopping districts, and sometimes even stations.</string>
+    
 </resources>
