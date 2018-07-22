@@ -20,7 +20,7 @@ GravitDesigner was used heavily for the mockups, wireframes, and image effects i
 
 I wanted the UI for this app to be very easy to use. I especially wanted the first page to be bold and present a colorful view of the listed cities. Each city housed four categories which housed items in a ListView. I chose a red and white theme for the app based off of Japan's flag colors. The Raleway font used throughout the app gave the app a touristy, yet professional, feel.
 
-![](http://placekitten.com/300/200) ![](http://placekitten.com/300/200)
+![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p8-tour-guide-app/pic1.png) ![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p8-tour-guide-app/pic2.png)![](https://github.com/raicalvin/pictures/blob/master/pix-abnd-p8-tour-guide-app/pic3.png)
 
 ## User Experience
 
