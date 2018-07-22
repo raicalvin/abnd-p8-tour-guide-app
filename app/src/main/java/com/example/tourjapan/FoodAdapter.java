@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class FoodAdapter extends ArrayAdapter {
+public class FoodAdapter extends ArrayAdapter<Food> {
 
     public FoodAdapter(Context context, ArrayList<Food> food) {
         super(context, 0, food);
@@ -23,7 +23,7 @@ public class FoodAdapter extends ArrayAdapter {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         // Get the Food item to use
-        Food foodItem = (Food) getItem(position);
+        Food foodItem = getItem(position);
 
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
