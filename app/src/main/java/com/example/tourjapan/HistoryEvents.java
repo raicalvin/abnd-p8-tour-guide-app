@@ -1,7 +1,6 @@
 package com.example.tourjapan;
 
 import java.util.*;
-import java.util.Map;
 
 public class HistoryEvents {
 

@@ -1,7 +1,5 @@
 package com.example.tourjapan;
 
-import java.util.HashMap;
-
 public class Secret {
     /**
      * Private member variables to hold secret title

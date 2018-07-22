@@ -1,7 +1,5 @@
 package com.example.tourjapan;
 
-import android.support.v4.content.ContextCompat;
-
 public class Places {
 
     /**
